@@ -6,13 +6,13 @@ function alliteration()
     const date = new Date()
     var day = date.toString().substring(0,3);
     const weekday = new Map()
-      .set('Sun', 'Sonorific Sunday, Bwellian!')
-      .set('Mon', 'Matchless Monday, Bwellian!')
-      .set('Tue', 'Tubular Tuesday, Bwellian!')
-      .set('Wed', 'Wondiferous Wednesday, Bwellian!')
-      .set('Thu', 'Thuriferous Thursday, Bwellian!')
-      .set('Fri', 'Friendly Friday, Bwellian!')
-      .set('Sat', 'Satiny Saturday, Bwellian!');
+      .set('Sun', 'Sonorific Sunday, Human!')
+      .set('Mon', 'Matchless Monday, Human!')
+      .set('Tue', 'Tubular Tuesday, Human!')
+      .set('Wed', 'Wondiferous Wednesday, Human!')
+      .set('Thu', 'Thuriferous Thursday, Human!')
+      .set('Fri', 'Friendly Friday, Human!')
+      .set('Sat', 'Satiny Saturday, Human!');
 
     return weekday.get(day);
   }
